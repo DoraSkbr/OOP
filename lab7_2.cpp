@@ -53,8 +53,6 @@ istream &operator>>(istream &in_stream, Complex &dt)
     return in_stream;
 }
 
-/*---------------------------------------------------------*/
-
 template <typename T> // Шаблон класса Матрица
 class Matrix
 {
